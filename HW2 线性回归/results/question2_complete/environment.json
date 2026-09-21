@@ -1,0 +1,13 @@
+{
+  "python": "3.10.20",
+  "packages": {
+    "numpy": "2.2.6",
+    "matplotlib": "3.10.9",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2"
+  },
+  "data_sha256": {
+    "B_train.csv": "8fb24d9aecbf42c7e6b6275f3de0a90049f104f27a511d27509f94a581cd7a96",
+    "B_test.csv": "1f13c617500e1a0859e231aed2ad2f42fc4e150d06bb81d2e7a53bcba848385c"
+  }
+}

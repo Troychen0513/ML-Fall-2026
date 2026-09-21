@@ -1,0 +1,16 @@
+{
+  "lowest_rmse": "spline:lasso",
+  "selected": "quadratic:lasso",
+  "threshold": 130.29821713663793,
+  "eligible": [
+    "quadratic:elastic",
+    "quadratic:lasso",
+    "quadratic:ols",
+    "quadratic:ridge",
+    "spline:elastic",
+    "spline:lasso",
+    "spline:ols",
+    "spline:ridge"
+  ],
+  "test_used": false
+}

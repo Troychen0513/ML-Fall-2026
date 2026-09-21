@@ -1,0 +1,568 @@
+{
+  "document": "C:\\Users\\26491\\Desktop\\ML-Fall-2026\\HW2 线性回归\\docs\\第二题重组稿\\第二题_房源租金预测实验报告.md",
+  "backup": "C:\\Users\\26491\\Desktop\\ML-Fall-2026\\tmp\\第二题_插入正文代码前.md",
+  "sections_with_inserted_code": [
+    "2.1",
+    "2.2.1",
+    "2.2.2",
+    "2.2.3",
+    "2.3.1",
+    "2.3.2",
+    "2.3.3",
+    "2.4",
+    "2.5.1",
+    "2.5.2",
+    "2.5.3",
+    "2.5.4",
+    "2.6.1",
+    "2.6.2",
+    "2.6.3",
+    "2.7.1",
+    "2.7.2",
+    "2.7.3",
+    "2.8.1",
+    "2.8.2",
+    "2.8.3",
+    "A.1",
+    "A.2",
+    "A.3",
+    "B.1",
+    "B.2",
+    "B.3"
+  ],
+  "sections_count": 27,
+  "python_blocks_after": 75,
+  "source_blocks_inserted": 76,
+  "original_text_preserved_exactly": true,
+  "all_python_blocks_parse": true,
+  "original_formulas_preserved": true,
+  "existing_links_resolve": true,
+  "source_archive_sha256": "1894855f00f1dc9f135429067937d4773b471467677853aaa362d4fabbe4a98b",
+  "document_sha256": "e8eeea86b621ea77790bf56916174d8e8e14cf3985c75708448c067a06be5f9f",
+  "source_records": [
+    {
+      "source": "question2/experiment.py",
+      "start": 245,
+      "end": 251,
+      "symbol": "run_training",
+      "sha256": "664db88e84f06d11c0401471d5557ee9809cd0933919aa68ef249d932e470647"
+    },
+    {
+      "source": "question2/features.py",
+      "start": 3,
+      "end": 32,
+      "symbol": null,
+      "sha256": "fd9259ff0b65fadb3e257c5bdcd5b927ffde942193a80f28a1d5882b8806ca88"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 120,
+      "end": 136,
+      "symbol": "audit",
+      "sha256": "40a0c867692c397388dc05d5bf4f23ac50916603bcadcc5e83c01e360fe9fd3c"
+    },
+    {
+      "source": "question2/plot.py",
+      "start": 3,
+      "end": 40,
+      "symbol": null,
+      "sha256": "12e60ada3d73fbe01003bf9da4b89750988af4fc52846f3287b1541cab62e802"
+    },
+    {
+      "source": "question2/plot.py",
+      "start": 163,
+      "end": 232,
+      "symbol": null,
+      "sha256": "98ad5dd0c87fafade9161f1b2fe36fcc369bf17c985f717a06faa6361bce4ab2"
+    },
+    {
+      "source": "question2/features.py",
+      "start": 12,
+      "end": 18,
+      "symbol": null,
+      "sha256": "2fbb357511d0c5527f201945b5a19281a835229e4dcb22936c65124693270756"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 40,
+      "end": 43,
+      "symbol": "domain_variants",
+      "sha256": "ff100cc507f8bbf3ea285b4e6a0d255a5890231c70aaa8efe20a29599cb38d6a"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 46,
+      "end": 69,
+      "symbol": "search_grids",
+      "sha256": "073f86adc58f4ef8b93c8a53f5ecf485df7b17a52cb3203d31784d9566ece9f1"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 14,
+      "end": 14,
+      "symbol": null,
+      "sha256": "b5c3c032bad67aa7f3aef141e6622199c7798963101aa3088f15413bb4dac2c8"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 26,
+      "end": 28,
+      "symbol": "metrics",
+      "sha256": "89e44583538da3a607419b278654fe0be1af17642486fcb75459af7add22e348"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 3,
+      "end": 23,
+      "symbol": null,
+      "sha256": "0c3549155b239fe53264f15676ae29f9d4b3584eff211ac785cb07912c5e8343"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 31,
+      "end": 37,
+      "symbol": "pipeline_for",
+      "sha256": "4522387b237643b046870b2530e9dcbb31c27235b469f635a544d6e12c42983a"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 139,
+      "end": 211,
+      "symbol": "compare",
+      "sha256": "f9e040318052adfa5dafbf585dbc5374c05938a0db2ebf9573201964297e677d"
+    },
+    {
+      "source": "configs/q2.yaml",
+      "start": null,
+      "end": null,
+      "symbol": null,
+      "sha256": "9a1ea758c703572dad0d4f83bf06574109fdeac1f5ecfd68d25ef0dcee0581f9"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 72,
+      "end": 84,
+      "symbol": "grid_records",
+      "sha256": "60584a60b3c809a5ecf5fb6aa1b69917e666bfdd3a58fd828a5f1c71a49b42f7"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 87,
+      "end": 112,
+      "symbol": "tune",
+      "sha256": "9229b3b740ca1951fcf40fe3eeb9751e2acc472ab4140d2636335c867a973e32"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 115,
+      "end": 117,
+      "symbol": "best_record",
+      "sha256": "02059bf61680a53b28a2dd7605cf840cea84980eec201541c880d14e6c872508"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 31,
+      "end": 37,
+      "symbol": "pipeline_for",
+      "sha256": "4522387b237643b046870b2530e9dcbb31c27235b469f635a544d6e12c42983a"
+    },
+    {
+      "source": "question2/features.py",
+      "start": 87,
+      "end": 114,
+      "symbol": "CheckedLinear",
+      "sha256": "25061e8d24e622099b04eb559be739a57ce3bda72491d32ae2c687834277032e"
+    },
+    {
+      "source": "读取已有结果的展示代码",
+      "sha256": "d7d804374ba66d864fa0bc689e32387435c5e24e54e333bfa21a4662e3954776"
+    },
+    {
+      "source": "question2/features.py",
+      "start": 12,
+      "end": 18,
+      "symbol": null,
+      "sha256": "2fbb357511d0c5527f201945b5a19281a835229e4dcb22936c65124693270756"
+    },
+    {
+      "source": "question2/features.py",
+      "start": 35,
+      "end": 84,
+      "symbol": "FeatureMap",
+      "sha256": "3e4efbb7417da3bf572395782ae3f24979c86ece457b48f1b1d36ef91e2f7b95"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 46,
+      "end": 69,
+      "symbol": "search_grids",
+      "sha256": "073f86adc58f4ef8b93c8a53f5ecf485df7b17a52cb3203d31784d9566ece9f1"
+    },
+    {
+      "source": "读取已有结果的展示代码",
+      "sha256": "1ba1f5a8ccbc2680b4548d14d221c7cc99817f9c480c1749b336f49bbecc9c34"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 40,
+      "end": 43,
+      "symbol": "domain_variants",
+      "sha256": "ff100cc507f8bbf3ea285b4e6a0d255a5890231c70aaa8efe20a29599cb38d6a"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 173,
+      "end": 187,
+      "symbol": null,
+      "sha256": "d7c9d323145344f8c88aaa6f5175890f2b333f05aab5f736c9825be51ae63854"
+    },
+    {
+      "source": "question2/report.py",
+      "start": 12,
+      "end": 16,
+      "symbol": "table",
+      "sha256": "2a17d452eef7ed945f91913acdd2f78b611075244630a7da3c40921e331d2ae7"
+    },
+    {
+      "source": "question2/report.py",
+      "start": 192,
+      "end": 199,
+      "symbol": null,
+      "sha256": "1627b953ab4fc7aaff3ff48225338423706a7dccb019072de377ae5859f3e4bc"
+    },
+    {
+      "source": "question2/features.py",
+      "start": 87,
+      "end": 114,
+      "symbol": "CheckedLinear",
+      "sha256": "25061e8d24e622099b04eb559be739a57ce3bda72491d32ae2c687834277032e"
+    },
+    {
+      "source": "question2/report.py",
+      "start": 203,
+      "end": 210,
+      "symbol": null,
+      "sha256": "0318f657f8736ce47aa1ae136ec3ded987ea242f99281cf8a653b50a2bec5a54"
+    },
+    {
+      "source": "question2/plot.py",
+      "start": 276,
+      "end": 278,
+      "symbol": null,
+      "sha256": "fe220f5295acabba53df9229e89e7c5f39481265ea0f6a6b4e651c32d00efdb1"
+    },
+    {
+      "source": "question2/plot.py",
+      "start": 304,
+      "end": 322,
+      "symbol": null,
+      "sha256": "b964498fbbe0c200293c0133c1542e6d0b4491450e49910b5bbf5eabc7dd0ef8"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 195,
+      "end": 211,
+      "symbol": null,
+      "sha256": "3e0c64a79c48a013246ee024eb6fca49e2f131cc595b9d212f2a12ecc2bef4ed"
+    },
+    {
+      "source": "question2/report.py",
+      "start": 182,
+      "end": 189,
+      "symbol": null,
+      "sha256": "60ccfc4c62a0b0ac10a081965b5b57686640c18f4d96abaec307dd9890d3c3b0"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 214,
+      "end": 242,
+      "symbol": "finalize",
+      "sha256": "867c465ebcccbf5e8b12f715b398a42e4caa92e8026c3851f0452773c3f99d81"
+    },
+    {
+      "source": "question2/plot.py",
+      "start": 112,
+      "end": 121,
+      "symbol": "term_counts",
+      "sha256": "de9dd0152cd6d828f48a2235ec981be804513eb8a133d89a0c575f09fd4bbebc"
+    },
+    {
+      "source": "question2/plot.py",
+      "start": 124,
+      "end": 144,
+      "symbol": "lasso_selection",
+      "sha256": "87edb7cc30b4da22ae9eb1bcb9a9e45ff6e0589e066731d3d9784695799ffa06"
+    },
+    {
+      "source": "question2/plot.py",
+      "start": 325,
+      "end": 341,
+      "symbol": null,
+      "sha256": "c475f6bb5811ae372138621d39dfc848859cac206e76e6531b2758f86786758b"
+    },
+    {
+      "source": "question2/features.py",
+      "start": 117,
+      "end": 137,
+      "symbol": "export_formula",
+      "sha256": "bec0691cd09056bc663b41cab1b98b46f94d40022ed9005b41b950dbf14c66eb"
+    },
+    {
+      "source": "question2/report.py",
+      "start": 19,
+      "end": 28,
+      "symbol": "term_math",
+      "sha256": "936f9cc0f04429aefe48dc685cf96906a83ac0999827bf4c4c23643fe9056dc5"
+    },
+    {
+      "source": "question2/report.py",
+      "start": 31,
+      "end": 43,
+      "symbol": "polynomial_expression",
+      "sha256": "1b155772520fe68c170efafc4b0826861710885481009c2bfe9a78127b17bd1e"
+    },
+    {
+      "source": "question2/verify.py",
+      "start": 17,
+      "end": 29,
+      "symbol": "independent_polynomial",
+      "sha256": "38d5d6e185b84b02dc18d7f845af69bbcec7ca1679b1bb07977b43dc47933857"
+    },
+    {
+      "source": "question2/report.py",
+      "start": 229,
+      "end": 231,
+      "symbol": null,
+      "sha256": "59c3b0c3f6f965b43bbce9562cbdfe61a56033d9a97edfd4553502f75d090444"
+    },
+    {
+      "source": "question2/plot.py",
+      "start": 147,
+      "end": 159,
+      "symbol": "ale_curve",
+      "sha256": "3b5fbca898152285590029215715a9abf6a148c41a46598ced72cb0a9738facd"
+    },
+    {
+      "source": "question2/plot.py",
+      "start": 342,
+      "end": 353,
+      "symbol": null,
+      "sha256": "524d1254ea131556ce5f5a2d926840b2c81f69f65924c550999cecc272c3efcc"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 26,
+      "end": 28,
+      "symbol": "metrics",
+      "sha256": "89e44583538da3a607419b278654fe0be1af17642486fcb75459af7add22e348"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 214,
+      "end": 242,
+      "symbol": "finalize",
+      "sha256": "867c465ebcccbf5e8b12f715b398a42e4caa92e8026c3851f0452773c3f99d81"
+    },
+    {
+      "source": "question2/plot.py",
+      "start": 355,
+      "end": 366,
+      "symbol": null,
+      "sha256": "60002582a9b9a114f99e14550fdd01f499b8fe00d6f0c16839bde5a4c2da24dd"
+    },
+    {
+      "source": "question2/report.py",
+      "start": 242,
+      "end": 255,
+      "symbol": null,
+      "sha256": "669b2ace00542ea99d9449c49192ce2b98c1dbfec5ef57ea2358f99d3eb5518b"
+    },
+    {
+      "source": "question2/plot.py",
+      "start": 368,
+      "end": 379,
+      "symbol": null,
+      "sha256": "49e612693bd9e1d75f9a160132f99b7b41a2749b27924fcd205ea514055868f4"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 232,
+      "end": 242,
+      "symbol": null,
+      "sha256": "aaa9ace71293aa36d837d6565d15c53bacf05d5acf40ffdcedd72c39f3a3a2e0"
+    },
+    {
+      "source": "question2/report.py",
+      "start": 256,
+      "end": 257,
+      "symbol": null,
+      "sha256": "0ff676d6ac1f5333abd384f2f3098020ebfe1e1ec1c2b9a21cc866aee61a3c4f"
+    },
+    {
+      "source": "读取已有结果的展示代码",
+      "sha256": "0f4dc8cbb54dc94ba11b664b205d90ac2433287a3469039401a2085f96543a4f"
+    },
+    {
+      "source": "question2/plot.py",
+      "start": 112,
+      "end": 121,
+      "symbol": "term_counts",
+      "sha256": "de9dd0152cd6d828f48a2235ec981be804513eb8a133d89a0c575f09fd4bbebc"
+    },
+    {
+      "source": "question2/plot.py",
+      "start": 147,
+      "end": 159,
+      "symbol": "ale_curve",
+      "sha256": "3b5fbca898152285590029215715a9abf6a148c41a46598ced72cb0a9738facd"
+    },
+    {
+      "source": "question2/__init__.py",
+      "start": null,
+      "end": null,
+      "symbol": null,
+      "sha256": "586a151d34e45d2fa33465512cc6f01dd96577e52a34ae45e9b3c90a5d53bbd9"
+    },
+    {
+      "source": "question2/run.py",
+      "start": null,
+      "end": null,
+      "symbol": null,
+      "sha256": "752186c68f4916f57d3f9e7d9acaff876b5a87b908385dee5439c62259c5bdbc"
+    },
+    {
+      "source": "question2/features.py",
+      "start": 140,
+      "end": 148,
+      "symbol": "save_json",
+      "sha256": "0fbff258d9910249e86ff8e523ff4aa095abcb8e08b8557e34a80a474aa9eb5a"
+    },
+    {
+      "source": "requirements-q2.txt",
+      "start": null,
+      "end": null,
+      "symbol": null,
+      "sha256": "757bb219854902ca0c0fb4ad5424636e361552e7053a33ea8a8e24e1d6ac653e"
+    },
+    {
+      "source": "question2/verify.py",
+      "start": null,
+      "end": null,
+      "symbol": null,
+      "sha256": "63d9b9aaf760d17643e564e3056f66d6b1fa7878901b214b36d52faeb464144a"
+    },
+    {
+      "source": "question2/report.py",
+      "start": 12,
+      "end": 16,
+      "symbol": "table",
+      "sha256": "2a17d452eef7ed945f91913acdd2f78b611075244630a7da3c40921e331d2ae7"
+    },
+    {
+      "source": "question2/report.py",
+      "start": 47,
+      "end": 64,
+      "symbol": null,
+      "sha256": "a6324012c849719d8dbd4e776b273a84b252f703e05543ecf23da32269064c6e"
+    },
+    {
+      "source": "question2/report.py",
+      "start": 287,
+      "end": 289,
+      "symbol": null,
+      "sha256": "58ddcd740e019dd368fd838891c8d8e76c640f2b455acb05bcd5a85abe67e0eb"
+    },
+    {
+      "source": "question2/plot.py",
+      "start": 275,
+      "end": 302,
+      "symbol": null,
+      "sha256": "e54fec91163eb3382b2af699a96459278466f1f7027ea3e796cec462ba283d11"
+    },
+    {
+      "source": "question2/plot.py",
+      "start": 405,
+      "end": 441,
+      "symbol": null,
+      "sha256": "896c8ca8fbfed2b92d43345746241ac743f927007483a6dfb85037dda90c3f89"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 31,
+      "end": 37,
+      "symbol": "pipeline_for",
+      "sha256": "4522387b237643b046870b2530e9dcbb31c27235b469f635a544d6e12c42983a"
+    },
+    {
+      "source": "question2/experiment.py",
+      "start": 46,
+      "end": 69,
+      "symbol": "search_grids",
+      "sha256": "073f86adc58f4ef8b93c8a53f5ecf485df7b17a52cb3203d31784d9566ece9f1"
+    },
+    {
+      "source": "question2/embedding.py",
+      "start": 16,
+      "end": 17,
+      "symbol": "neighborhood",
+      "sha256": "e51819f4c3d5ab32d7f3941b34c140fb58f7402a7bb1fce8800934eedc5ffbe7"
+    },
+    {
+      "source": "question2/embedding.py",
+      "start": 20,
+      "end": 83,
+      "symbol": "run_embeddings",
+      "sha256": "1d23c3497490d20a8ac3b151697309dce88e5a46980137031b98db4d70e8d3e4"
+    },
+    {
+      "source": "question2/plot.py",
+      "start": 43,
+      "end": 74,
+      "symbol": "pca_analysis",
+      "sha256": "0a71292f5cd16fd95d10b49bc08373a59ebf078ed0999c8964dc91e692cc9eff"
+    },
+    {
+      "source": "question2/embedding.py",
+      "start": null,
+      "end": null,
+      "symbol": null,
+      "sha256": "86cd365df3fa94958ddef75245fdc6536b2517a2e33ee8961f76722c34ba22c8"
+    },
+    {
+      "source": "question2/plot.py",
+      "start": 77,
+      "end": 109,
+      "symbol": "embedding_comparison",
+      "sha256": "689c6dd88321a4a322710150ce9b251a85d7a8c79392761173f719734c39c661"
+    },
+    {
+      "source": "question2/plot.py",
+      "start": 234,
+      "end": 273,
+      "symbol": null,
+      "sha256": "c66eae6882ba76e3f5883a4e2d3b5cb70ce68d8d85ce023b33e5ce7727ef8e3c"
+    },
+    {
+      "source": "configs/pacmap_trial.yaml",
+      "start": null,
+      "end": null,
+      "symbol": null,
+      "sha256": "b02091b887d3efd69d16f82f1efba200e640f0bcf2c15f8132a272000be4ae02"
+    },
+    {
+      "source": "requirements-pacmap.txt",
+      "start": null,
+      "end": null,
+      "symbol": null,
+      "sha256": "6b0c95eeac6ef90bb22e0674523c060162a1495add29cc73ca2c3b267f81c73d"
+    },
+    {
+      "source": "experiments/pacmap_trial.py",
+      "start": null,
+      "end": null,
+      "symbol": null,
+      "sha256": "b8d9f8bf10913d645ece2f7341249b9cbbccd1171dbe91d996add9b2f774e5ff"
+    }
+  ],
+  "reader_preview": "No Markpad or Obsidian UI verification"
+}

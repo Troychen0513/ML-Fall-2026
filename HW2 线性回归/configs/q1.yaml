@@ -1,0 +1,20 @@
+data:
+  train: data/A_train.csv
+  test: data/A_test.csv
+base:
+  seed: 42
+  max_iter: 20000
+  tol: 1.0e-8
+  step_factor: 0.2
+  divergence_ratio: 1.0e+12
+experiments:
+  learning_rate: [0.05, 1.0, 1.8, 2.2]
+  regularization: [0.01, 0.1, 1.0]
+figures:
+  sample_count: 200
+  dpi: 300
+  snapshots: [0, 2, 8]
+  scaling_budget: 100
+  learning_rate_step: 5
+output:
+  root: results

@@ -1,0 +1,27 @@
+{
+  "source": "C:\\Users\\26491\\Documents\\Obsidian Vault\\机器学习ML\\机器学习作业\\第二次作业_第二题实验报告.md",
+  "document": "C:\\Users\\26491\\Desktop\\ML-Fall-2026\\HW2 线性回归\\docs\\第二题重组稿\\第二题_房源租金预测实验报告.md",
+  "source_sha256": "3cf1301149b5ceff2a919b1064baf4e414d5a4ed83b0632706938a4e8399fc22",
+  "document_sha256": "124c73ffedcca107b1ff7bf08117cdb0e17b9d7acee9687ad1cdb739441bc4fe",
+  "local_links_checked": 20,
+  "images": 14,
+  "main_figures": 8,
+  "appendix_figures": 6,
+  "retained_nonzero_terms": 30,
+  "test_rows": 1500,
+  "recomputed_test_metrics": {
+    "rmse": 127.21097752560392,
+    "mae": 102.1955223758012,
+    "r2": 0.983011126688792
+  },
+  "displayed_equation_max_prediction_difference": 2.5913595891324803e-07,
+  "checks": [
+    "source equation copied exactly",
+    "displayed coefficients match saved formula",
+    "all 1500 displayed-equation predictions agree with stored predictions",
+    "fixed OLS comparison matches saved comparison.csv",
+    "local links resolve and copied assets are byte-identical",
+    "Markdown delimiters, braces and extracted Python snippets checked"
+  ],
+  "reader_preview": "Markpad / Obsidian UI not verified"
+}
