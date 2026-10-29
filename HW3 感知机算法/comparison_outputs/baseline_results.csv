@@ -1,0 +1,5 @@
+dataset,algorithm,eta,initialization,standardized,train_shape,test_shape,epochs,update_steps,sample_updates,sample_evaluations,converged,train_accuracy,test_accuracy
+A,SGD,1.0,zero,False,"(500, 4)","(250, 4)",5,33,33,2500,True,1.0,1.0
+A,BGD,1.0,zero,False,"(500, 4)","(250, 4)",14,13,557,7000,True,1.0,1.0
+B,SGD,1.0,zero,False,"(500, 8)","(250, 8)",4,30,30,2000,True,1.0,1.0
+B,BGD,1.0,zero,False,"(500, 8)","(250, 8)",40,39,764,20000,True,1.0,1.0
