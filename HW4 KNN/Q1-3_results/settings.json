@@ -1,0 +1,60 @@
+{
+  "n_train_per_repeat": 900,
+  "n_repeats": 500,
+  "first_seed": 60000,
+  "last_seed": 60499,
+  "k_values": [
+    1,
+    3,
+    5,
+    9,
+    15,
+    21,
+    31,
+    51,
+    81,
+    121,
+    181,
+    251
+  ],
+  "metric": "manhattan",
+  "metric_selection": "Minimum mean validation Brier over pilot K values; tie by metric name.",
+  "pilot_k_values": [
+    5,
+    15,
+    31,
+    61
+  ],
+  "metric_ranking": [
+    {
+      "metric": "manhattan",
+      "val_brier": 0.19702807983947018,
+      "val_accuracy": 0.868
+    },
+    {
+      "metric": "euclidean",
+      "val_brier": 0.20040347273798478,
+      "val_accuracy": 0.868
+    },
+    {
+      "metric": "cosine",
+      "val_brier": 0.5706527963567269,
+      "val_accuracy": 0.523
+    }
+  ],
+  "standardize": "Fit separately on each training sample; transform evaluation coordinates.",
+  "label_mode": "noisy",
+  "evaluation_points": 600,
+  "evaluation_source": "B_evaluation_points.csv; eta checked against generator in original coordinates.",
+  "data_roles": {
+    "B_train/B_val": "Distance selection only, before repeated sampling.",
+    "B_generator": "Independent training samples, shared across all K and both outputs.",
+    "B_evaluation_points": "Fixed evaluation points and true conditional probabilities; never train.",
+    "B_test": "Not used for this decomposition experiment."
+  },
+  "loss": "Squared Euclidean distance to random one-hot Y; sum across classes.",
+  "total_error": "bias_squared + variance + noise",
+  "reducible_error": "Squared error to eta = bias_squared + variance",
+  "variance_ddof": 0,
+  "estimation": "Finite-repeat Monte Carlo estimates, averaged over the fixed evaluation points."
+}
