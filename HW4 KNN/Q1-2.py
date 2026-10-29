@@ -128,7 +128,7 @@ def plot_boundaries(training_sets, predictions, edges, output_path):
     fig.legend(handles=handles, loc="upper center", bbox_to_anchor=(0.54, 0.997), ncol=3, frameon=False)
     fig.supxlabel("$x_1$", fontsize=15, y=0.015)
     fig.supylabel("$x_2$", fontsize=15, x=0.015)
-    fig.savefig(output_path, dpi=220, transparent=True)
+    fig.savefig(output_path, dpi=220, facecolor="white", transparent=False)
     plt.close(fig)
 
 

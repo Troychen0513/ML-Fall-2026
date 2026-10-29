@@ -205,10 +205,10 @@ def set_plot_style():
         "text.color": COLORS["ink"],
         "xtick.color": COLORS["ink"],
         "ytick.color": COLORS["ink"],
-        "figure.facecolor": "none",
-        "axes.facecolor": "none",
-        "savefig.facecolor": "none",
-        "savefig.transparent": True,
+        "figure.facecolor": "white",
+        "axes.facecolor": "white",
+        "savefig.facecolor": "white",
+        "savefig.transparent": False,
     })
 
 
@@ -259,7 +259,7 @@ def plot_preprocessing(x_train, y_train, diagnostics, output_path):
         for label, color in zip(classes, palette)
     ]
     fig.legend(handles=handles, loc="upper center", bbox_to_anchor=(0.5, 1), ncol=2, frameon=False)
-    fig.savefig(output_path, dpi=200, transparent=True)
+    fig.savefig(output_path, dpi=200, facecolor="white", transparent=False)
     plt.close(fig)
 
 
@@ -307,7 +307,7 @@ def plot_results(results, best, output_path):
     colorbar = fig.colorbar(im, ax=axes, location="right", fraction=0.025, pad=0.025, shrink=0.65)
     colorbar.set_label("验证准确率（%）", labelpad=12)
     colorbar.outline.set_visible(False)
-    fig.savefig(output_path, dpi=200, transparent=True)
+    fig.savefig(output_path, dpi=200, facecolor="white", transparent=False)
     plt.close(fig)
 
 

@@ -171,7 +171,7 @@ def plot_decomposition(results, output_path):
     axes[0].set_ylabel("平方损失")
     handles, labels = axes[0].get_legend_handles_labels()
     fig.legend(handles, labels, loc="upper center", bbox_to_anchor=(0.53, 0.99), ncol=4, frameon=False)
-    fig.savefig(output_path, dpi=220, transparent=True)
+    fig.savefig(output_path, dpi=220, facecolor="white", transparent=False)
     plt.close(fig)
 
 
