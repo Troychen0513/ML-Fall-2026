@@ -1,0 +1,24 @@
+{
+  "n_train": 900,
+  "seeds": [
+    50000,
+    50001,
+    50002
+  ],
+  "k_values": [
+    1,
+    15,
+    101
+  ],
+  "metric": "euclidean",
+  "standardize": true,
+  "label_mode": "noisy",
+  "grid_size": 240,
+  "limits": [
+    -2,
+    2
+  ],
+  "row_order": "seeds",
+  "column_order": "k_values",
+  "sensitivity_measure": "Mean pairwise prediction disagreement on the plotting grid; not accuracy."
+}

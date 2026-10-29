@@ -1,0 +1,58 @@
+{
+  "selected_by": "validation accuracy; ties: fewer features, larger K, metric name, no standardization",
+  "training_samples": 1200,
+  "standardize": true,
+  "representation": "PCA 2",
+  "n_features": 2,
+  "metric": "manhattan",
+  "k": 21,
+  "val_accuracy": 0.8133333333333334,
+  "val_macro_f1": 0.8131256952169077,
+  "test_accuracy": 0.8375,
+  "test_macro_f1": 0.837050871464474,
+  "class_order": [
+    0.0,
+    1.0
+  ],
+  "test_confusion_matrix": [
+    [
+      157,
+      34
+    ],
+    [
+      31,
+      178
+    ]
+  ],
+  "grid": {
+    "k_values": [
+      1,
+      3,
+      5,
+      7,
+      11,
+      15,
+      21,
+      31,
+      51
+    ],
+    "metrics": [
+      "euclidean",
+      "manhattan",
+      "cosine"
+    ],
+    "standardize": [
+      false,
+      true
+    ],
+    "pca_dimensions": [
+      2,
+      5,
+      10,
+      20,
+      40,
+      80,
+      160
+    ]
+  }
+}
