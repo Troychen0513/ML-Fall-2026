@@ -1,0 +1,3002 @@
+[
+  {
+    "dataset": "10X_cells_v3_AIBS",
+    "seed": 42,
+    "regime": "full",
+    "feature": "A_raw",
+    "n_train": 114,
+    "n_test": 33,
+    "n_genes": 24140,
+    "n_classes": 20,
+    "scales": {
+      "braycurtis": 0.9711251694532309,
+      "correlation": 0.8647537570305279,
+      "cosine": 0.8545089011466267,
+      "chebyshev": 3486.0,
+      "euclidean": 4166.306757789205
+    },
+    "selected": {
+      "single": [
+        [
+          "braycurtis",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "10X_cells_v3_AIBS",
+    "seed": 42,
+    "regime": "full",
+    "feature": "B_log",
+    "n_train": 114,
+    "n_test": 33,
+    "n_genes": 24140,
+    "n_classes": 20,
+    "scales": {
+      "braycurtis": 0.8339088130929697,
+      "correlation": 0.842583723135006,
+      "cosine": 0.8031940620994045,
+      "chebyshev": 6.191039562225342,
+      "euclidean": 90.34333220475513
+    },
+    "selected": {
+      "single": [
+        [
+          "correlation",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "10X_cells_v3_AIBS",
+    "seed": 42,
+    "regime": "full",
+    "feature": "C_hvg2000",
+    "n_train": 114,
+    "n_test": 33,
+    "n_genes": 2000,
+    "n_classes": 20,
+    "scales": {
+      "braycurtis": 0.8883696767826533,
+      "correlation": 1.0494301416205372,
+      "cosine": 0.8668839930315242,
+      "chebyshev": 6.191039562225342,
+      "euclidean": 56.67753835546754
+    },
+    "selected": {
+      "single": [
+        [
+          "braycurtis",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "10X_cells_v3_AIBS",
+    "seed": 42,
+    "regime": "full",
+    "feature": "D_hvg4000",
+    "n_train": 114,
+    "n_test": 33,
+    "n_genes": 4000,
+    "n_classes": 20,
+    "scales": {
+      "braycurtis": 0.862010298987841,
+      "correlation": 0.9775860787581597,
+      "cosine": 0.8314297712632275,
+      "chebyshev": 6.191039562225342,
+      "euclidean": 69.3946894935587
+    },
+    "selected": {
+      "single": [
+        [
+          "cosine",
+          20
+        ]
+      ],
+      "multi_k": [
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "10X_cells_v3_AIBS",
+    "seed": 42,
+    "regime": "matched",
+    "feature": "A_raw",
+    "n_train": 87,
+    "n_test": 28,
+    "n_genes": 24140,
+    "n_classes": 15,
+    "scales": {
+      "braycurtis": 0.9703190077349078,
+      "correlation": 0.8315641903241707,
+      "cosine": 0.8282288187672993,
+      "chebyshev": 2702.0,
+      "euclidean": 3910.0734008455647
+    },
+    "selected": {
+      "single": [
+        [
+          "braycurtis",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "10X_cells_v3_AIBS",
+    "seed": 42,
+    "regime": "matched",
+    "feature": "B_log",
+    "n_train": 87,
+    "n_test": 28,
+    "n_genes": 24140,
+    "n_classes": 15,
+    "scales": {
+      "braycurtis": 0.8208000313623544,
+      "correlation": 0.8099602041491284,
+      "cosine": 0.7609733588823439,
+      "chebyshev": 5.750135898590088,
+      "euclidean": 88.26389404102183
+    },
+    "selected": {
+      "single": [
+        [
+          "correlation",
+          20
+        ]
+      ],
+      "multi_k": [
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "10X_cells_v3_AIBS",
+    "seed": 42,
+    "regime": "matched",
+    "feature": "C_hvg2000",
+    "n_train": 87,
+    "n_test": 28,
+    "n_genes": 2000,
+    "n_classes": 15,
+    "scales": {
+      "braycurtis": 0.8568024946594011,
+      "correlation": 1.0878716586148427,
+      "cosine": 0.7919912755732464,
+      "chebyshev": 5.750135898590088,
+      "euclidean": 60.11726453825535
+    },
+    "selected": {
+      "single": [
+        [
+          "cosine",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "10X_cells_v3_AIBS",
+    "seed": 42,
+    "regime": "matched",
+    "feature": "D_hvg4000",
+    "n_train": 87,
+    "n_test": 28,
+    "n_genes": 4000,
+    "n_classes": 15,
+    "scales": {
+      "braycurtis": 0.8352020056796697,
+      "correlation": 0.9737174777795244,
+      "cosine": 0.7804338035711005,
+      "chebyshev": 5.750135898590088,
+      "euclidean": 68.69966424186887
+    },
+    "selected": {
+      "single": [
+        [
+          "correlation",
+          20
+        ]
+      ],
+      "multi_k": [
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "10X_cells_v2_AIBS",
+    "seed": 42,
+    "regime": "full",
+    "feature": "A_raw",
+    "n_train": 118,
+    "n_test": 31,
+    "n_genes": 24140,
+    "n_classes": 18,
+    "scales": {
+      "braycurtis": 0.918399401645475,
+      "correlation": 0.8075108619025979,
+      "cosine": 0.7942900216935778,
+      "chebyshev": 1397.0,
+      "euclidean": 1576.6664200140751
+    },
+    "selected": {
+      "single": [
+        [
+          "cosine",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "10X_cells_v2_AIBS",
+    "seed": 42,
+    "regime": "full",
+    "feature": "B_log",
+    "n_train": 118,
+    "n_test": 31,
+    "n_genes": 24140,
+    "n_classes": 18,
+    "scales": {
+      "braycurtis": 0.8625514999902197,
+      "correlation": 0.8793608272439426,
+      "cosine": 0.8408489046899174,
+      "chebyshev": 6.276500701904297,
+      "euclidean": 92.63902072188193
+    },
+    "selected": {
+      "single": [
+        [
+          "chebyshev",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "10X_cells_v2_AIBS",
+    "seed": 42,
+    "regime": "full",
+    "feature": "C_hvg2000",
+    "n_train": 118,
+    "n_test": 31,
+    "n_genes": 2000,
+    "n_classes": 18,
+    "scales": {
+      "braycurtis": 0.8974620525490498,
+      "correlation": 1.0686698328352309,
+      "cosine": 0.8676779141730113,
+      "chebyshev": 6.276500701904297,
+      "euclidean": 60.43007766293605
+    },
+    "selected": {
+      "single": [
+        [
+          "correlation",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "10X_cells_v2_AIBS",
+    "seed": 42,
+    "regime": "full",
+    "feature": "D_hvg4000",
+    "n_train": 118,
+    "n_test": 31,
+    "n_genes": 4000,
+    "n_classes": 18,
+    "scales": {
+      "braycurtis": 0.8776367736000246,
+      "correlation": 1.0043555262006323,
+      "cosine": 0.8540729357535889,
+      "chebyshev": 6.276500701904297,
+      "euclidean": 73.38938159263942
+    },
+    "selected": {
+      "single": [
+        [
+          "braycurtis",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "10X_cells_v2_AIBS",
+    "seed": 42,
+    "regime": "matched",
+    "feature": "A_raw",
+    "n_train": 87,
+    "n_test": 28,
+    "n_genes": 24140,
+    "n_classes": 15,
+    "scales": {
+      "braycurtis": 0.9120788824979458,
+      "correlation": 0.7217378665283434,
+      "cosine": 0.712553259137839,
+      "chebyshev": 1380.0,
+      "euclidean": 1519.7756413365757
+    },
+    "selected": {
+      "single": [
+        [
+          "correlation",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "10X_cells_v2_AIBS",
+    "seed": 42,
+    "regime": "matched",
+    "feature": "B_log",
+    "n_train": 87,
+    "n_test": 28,
+    "n_genes": 24140,
+    "n_classes": 15,
+    "scales": {
+      "braycurtis": 0.8343245962985667,
+      "correlation": 0.8406998566787807,
+      "cosine": 0.7969738697425373,
+      "chebyshev": 5.652049541473389,
+      "euclidean": 91.05335619724978
+    },
+    "selected": {
+      "single": [
+        [
+          "chebyshev",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "10X_cells_v2_AIBS",
+    "seed": 42,
+    "regime": "matched",
+    "feature": "C_hvg2000",
+    "n_train": 87,
+    "n_test": 28,
+    "n_genes": 2000,
+    "n_classes": 15,
+    "scales": {
+      "braycurtis": 0.8733032505569567,
+      "correlation": 1.0576103136872423,
+      "cosine": 0.8382813498500963,
+      "chebyshev": 5.420937538146973,
+      "euclidean": 60.12167271018238
+    },
+    "selected": {
+      "single": [
+        [
+          "correlation",
+          20
+        ]
+      ],
+      "multi_k": [
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "10X_cells_v2_AIBS",
+    "seed": 42,
+    "regime": "matched",
+    "feature": "D_hvg4000",
+    "n_train": 87,
+    "n_test": 28,
+    "n_genes": 4000,
+    "n_classes": 15,
+    "scales": {
+      "braycurtis": 0.846453196947307,
+      "correlation": 0.9867162403681331,
+      "cosine": 0.8115298224256834,
+      "chebyshev": 5.652049541473389,
+      "euclidean": 71.44978596666051
+    },
+    "selected": {
+      "single": [
+        [
+          "correlation",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "SMARTer_cells_MOp",
+    "seed": 42,
+    "regime": "full",
+    "feature": "A_raw",
+    "n_train": 118,
+    "n_test": 31,
+    "n_genes": 24140,
+    "n_classes": 17,
+    "scales": {
+      "braycurtis": 0.8997527604011496,
+      "correlation": 0.9182745107423481,
+      "cosine": 0.9075221572032711,
+      "chebyshev": 92801.0,
+      "euclidean": 135115.29470418958
+    },
+    "selected": {
+      "single": [
+        [
+          "correlation",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "SMARTer_cells_MOp",
+    "seed": 42,
+    "regime": "full",
+    "feature": "B_log",
+    "n_train": 118,
+    "n_test": 31,
+    "n_genes": 24140,
+    "n_classes": 17,
+    "scales": {
+      "braycurtis": 0.7813108312166795,
+      "correlation": 0.7943496500985187,
+      "cosine": 0.7145186241167543,
+      "chebyshev": 6.310052394866943,
+      "euclidean": 83.91280312124154
+    },
+    "selected": {
+      "single": [
+        [
+          "chebyshev",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "SMARTer_cells_MOp",
+    "seed": 42,
+    "regime": "full",
+    "feature": "C_hvg2000",
+    "n_train": 118,
+    "n_test": 31,
+    "n_genes": 2000,
+    "n_classes": 17,
+    "scales": {
+      "braycurtis": 0.8800785969664991,
+      "correlation": 1.0274454277026916,
+      "cosine": 0.8384653229983784,
+      "chebyshev": 6.310052394866943,
+      "euclidean": 54.052792347418524
+    },
+    "selected": {
+      "single": [
+        [
+          "braycurtis",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "SMARTer_cells_MOp",
+    "seed": 42,
+    "regime": "full",
+    "feature": "D_hvg4000",
+    "n_train": 118,
+    "n_test": 31,
+    "n_genes": 4000,
+    "n_classes": 17,
+    "scales": {
+      "braycurtis": 0.8663823875495806,
+      "correlation": 1.0000356980705132,
+      "cosine": 0.8275143998668983,
+      "chebyshev": 6.310052394866943,
+      "euclidean": 60.919556454695524
+    },
+    "selected": {
+      "single": [
+        [
+          "braycurtis",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "SMARTer_cells_MOp",
+    "seed": 42,
+    "regime": "matched",
+    "feature": "A_raw",
+    "n_train": 87,
+    "n_test": 29,
+    "n_genes": 24140,
+    "n_classes": 15,
+    "scales": {
+      "braycurtis": 0.882784179157523,
+      "correlation": 0.9182745107423481,
+      "cosine": 0.9075221572032711,
+      "chebyshev": 76214.0,
+      "euclidean": 107795.56053474559
+    },
+    "selected": {
+      "single": [
+        [
+          "cosine",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "SMARTer_cells_MOp",
+    "seed": 42,
+    "regime": "matched",
+    "feature": "B_log",
+    "n_train": 87,
+    "n_test": 29,
+    "n_genes": 24140,
+    "n_classes": 15,
+    "scales": {
+      "braycurtis": 0.7366669588286889,
+      "correlation": 0.7442571682226572,
+      "cosine": 0.6637506554797119,
+      "chebyshev": 6.310052394866943,
+      "euclidean": 80.14228127628198
+    },
+    "selected": {
+      "single": [
+        [
+          "chebyshev",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "SMARTer_cells_MOp",
+    "seed": 42,
+    "regime": "matched",
+    "feature": "C_hvg2000",
+    "n_train": 87,
+    "n_test": 29,
+    "n_genes": 2000,
+    "n_classes": 15,
+    "scales": {
+      "braycurtis": 0.8432124219994133,
+      "correlation": 1.0700766964824833,
+      "cosine": 0.7914097230817023,
+      "chebyshev": 6.310052394866943,
+      "euclidean": 53.50263404440107
+    },
+    "selected": {
+      "single": [
+        [
+          "braycurtis",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  },
+  {
+    "dataset": "SMARTer_cells_MOp",
+    "seed": 42,
+    "regime": "matched",
+    "feature": "D_hvg4000",
+    "n_train": 87,
+    "n_test": 29,
+    "n_genes": 4000,
+    "n_classes": 15,
+    "scales": {
+      "braycurtis": 0.8156872463210383,
+      "correlation": 1.0111875920251547,
+      "cosine": 0.7674418024640088,
+      "chebyshev": 6.310052394866943,
+      "euclidean": 58.99035517345295
+    },
+    "selected": {
+      "single": [
+        [
+          "cosine",
+          10
+        ]
+      ],
+      "multi_k": [
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ]
+      ],
+      "ensemble": [
+        [
+          "braycurtis",
+          10
+        ],
+        [
+          "braycurtis",
+          20
+        ],
+        [
+          "braycurtis",
+          30
+        ],
+        [
+          "braycurtis",
+          40
+        ],
+        [
+          "correlation",
+          10
+        ],
+        [
+          "correlation",
+          20
+        ],
+        [
+          "correlation",
+          30
+        ],
+        [
+          "correlation",
+          40
+        ],
+        [
+          "cosine",
+          10
+        ],
+        [
+          "cosine",
+          20
+        ],
+        [
+          "cosine",
+          30
+        ],
+        [
+          "cosine",
+          40
+        ],
+        [
+          "chebyshev",
+          10
+        ],
+        [
+          "chebyshev",
+          20
+        ],
+        [
+          "chebyshev",
+          30
+        ],
+        [
+          "chebyshev",
+          40
+        ],
+        [
+          "euclidean",
+          10
+        ],
+        [
+          "euclidean",
+          20
+        ],
+        [
+          "euclidean",
+          30
+        ],
+        [
+          "euclidean",
+          40
+        ]
+      ]
+    }
+  }
+]

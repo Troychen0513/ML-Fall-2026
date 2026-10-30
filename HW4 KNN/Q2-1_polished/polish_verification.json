@@ -1,0 +1,38 @@
+{
+  "python_executable": "D:\\software\\Anaconda\\envs\\medsafety\\python.exe",
+  "model_and_io_functions_unchanged": [
+    "average_probabilities",
+    "common_gene_names",
+    "evaluate_probabilities",
+    "hvg_ranking",
+    "inspect_dataset",
+    "knn_probabilities",
+    "load_expression",
+    "log_normalize",
+    "matched_indices",
+    "prepare_experiment",
+    "split_by_type",
+    "stratified_subset",
+    "training_distance_scales",
+    "umap_for_test"
+  ],
+  "source_results_unchanged": [
+    "metrics.csv",
+    "per_class_metrics.csv",
+    "validation_configurations.csv",
+    "model_settings.json",
+    "plot_diagnostics.csv",
+    "test_diagnostics.csv",
+    "marker_summary.csv",
+    "dataset_composition.csv",
+    "run_manifest.json"
+  ],
+  "png_count": 32,
+  "white_corners": true,
+  "workflow_generated": false,
+  "usage_document_unchanged": true,
+  "source_sha256": "0e86cfbba73134acc29ecd541417052cb7eb068d81eaa6e83219f3f0515c8ba6",
+  "manual_sha256": "16e073b2951d003d1d99cdd018a8248c2c60330d8a3dcd04624eb22995648963",
+  "markdown_math_syntax_checked": true,
+  "markdown_reader_ui_checked": false
+}

@@ -1,0 +1,56 @@
+dataset,label,count
+10X_cells_v3_AIBS,L5 IT,29721
+10X_cells_v3_AIBS,L6 CT,12807
+10X_cells_v3_AIBS,L2/3 IT,10915
+10X_cells_v3_AIBS,L6 IT,4445
+10X_cells_v3_AIBS,L5/6 NP,3147
+10X_cells_v3_AIBS,Vip,2966
+10X_cells_v3_AIBS,Lamp5,2357
+10X_cells_v3_AIBS,Sst,1869
+10X_cells_v3_AIBS,L6b,554
+10X_cells_v3_AIBS,Oligo,537
+10X_cells_v3_AIBS,Astro,398
+10X_cells_v3_AIBS,Pvalb,368
+10X_cells_v3_AIBS,Sncg,348
+10X_cells_v3_AIBS,Endo,187
+10X_cells_v3_AIBS,L5 ET,161
+10X_cells_v3_AIBS,OPC,146
+10X_cells_v3_AIBS,Macrophage,122
+10X_cells_v3_AIBS,L6 IT Car3,69
+10X_cells_v3_AIBS,VLMC,55
+10X_cells_v3_AIBS,SMC,11
+10X_cells_v2_AIBS,L5 IT,42647
+10X_cells_v2_AIBS,L6 CT,22981
+10X_cells_v2_AIBS,L2/3 IT,11119
+10X_cells_v2_AIBS,L6 IT,9489
+10X_cells_v2_AIBS,Vip,8082
+10X_cells_v2_AIBS,Sst,7107
+10X_cells_v2_AIBS,Lamp5,6071
+10X_cells_v2_AIBS,Pvalb,4976
+10X_cells_v2_AIBS,L5/6 NP,4118
+10X_cells_v2_AIBS,L6b,2337
+10X_cells_v2_AIBS,Sncg,1352
+10X_cells_v2_AIBS,L6 IT Car3,646
+10X_cells_v2_AIBS,L5 ET,515
+10X_cells_v2_AIBS,Astro,440
+10X_cells_v2_AIBS,Oligo,393
+10X_cells_v2_AIBS,Endo,141
+10X_cells_v2_AIBS,OPC,123
+10X_cells_v2_AIBS,Macrophage,104
+SMARTer_cells_MOp,L5 IT,1572
+SMARTer_cells_MOp,L6 CT,904
+SMARTer_cells_MOp,Vip,659
+SMARTer_cells_MOp,L6b,571
+SMARTer_cells_MOp,Pvalb,543
+SMARTer_cells_MOp,L2/3 IT,483
+SMARTer_cells_MOp,Sst,429
+SMARTer_cells_MOp,L6 IT,395
+SMARTer_cells_MOp,Lamp5,377
+SMARTer_cells_MOp,L5/6 NP,210
+SMARTer_cells_MOp,Sncg,84
+SMARTer_cells_MOp,SMC,21
+SMARTer_cells_MOp,L5 ET,12
+SMARTer_cells_MOp,Astro,10
+SMARTer_cells_MOp,Endo,7
+SMARTer_cells_MOp,VLMC,6
+SMARTer_cells_MOp,L6 IT Car3,5
